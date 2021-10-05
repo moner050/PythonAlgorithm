@@ -15,4 +15,4 @@ while True:
         else :
             print("A 또는 B가 범위를 벗어났습니다.")
     except :
-        break;
+        break
