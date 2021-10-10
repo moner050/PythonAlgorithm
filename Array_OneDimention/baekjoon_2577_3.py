@@ -21,3 +21,4 @@ if (A < 1000 and A >= 100) and (B < 1000 and B >= 100) and (C < 1000 and C >= 10
         print(result.count(str(i)))
 else :
     print("A,B,C의 값이 100이상 1000미만인 값이 아닙니다.")
+
