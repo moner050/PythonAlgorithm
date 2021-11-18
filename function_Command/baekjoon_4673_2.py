@@ -13,15 +13,15 @@
     1, 3, 5, 7, 9, 20, 31, 42, 53, 64, 75, 86, 97
     10000보다 작거나 같은 셀프 넘버를 한 줄에 하나씩 출력하는 프로그램을 작성하시오.
 """
-natural_num = set(range(1,10001))             # 1이상 10001미만의 배열을 만듬.
-temp_num = set()                              # 중복제거용
+nature_num = set(range(1, 10001))
+temp_num = set()
 
-for i in range(1, 10001):                     # 1이상 10000미만
-    for j in str(i) :                         # i를 문자열로 변환 후 j에 하나씩 대입
-        i += int(j)                           #
+for i in range(1,10001) :
+    for j in str(i) :
+        i += int(j)
     temp_num.add(i)
 
-self_num = sorted(natural_num - temp_num)
+self_num = sorted(nature_num - temp_num)
 
 for i in self_num :
     print(i)
