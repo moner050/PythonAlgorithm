@@ -13,8 +13,8 @@
 T = int(input())
 
 for i in range(T):
-    R,S = input()
-    R = int(R)
-
-    for e in range(R) :
-        
+    R,S = input().split()
+    temp = ''
+    for e in S :
+        temp += int(R)*e
+    print(temp)
