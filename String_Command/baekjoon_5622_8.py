@@ -19,5 +19,4 @@ for i in range(len(NUM)):
     for j in dial :
         if NUM[i] in j :
             time += dial.index(j)+3
-
 print(time)
