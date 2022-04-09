@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sat Apr  9 15:46:00 2022
-
-@author: user
+@author: LMH
 """
 
 num1 = 100
